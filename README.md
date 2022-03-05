@@ -12,7 +12,7 @@ a direct visit from the browser.
 
 ## Example
 
-####  No Header required for easy use of the url so that in places like HTML <img src="http://"> you can send request without thinking of setting headers
+####  No Header required for easy use of the url so that in places like HTML img tag you can send request without thinking of setting headers
 ```javascript
 // Listen on a specific host via the HOST environment variable
 var host = process.env.HOST || '0.0.0.0';
